@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="contactStyle.css">
+        <link rel="icon" href="Image/Contact.png">
+        <script src="JS/contact.js"></script>
+        <title>Contact Us</title>
+    </head>
+    <body>   
+        <section>
+            <div class="box">
+                <ul type="none">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="service.html"> Services</a></li>
+                    <li><a href="contact.html"> Contact</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="login.html"> Log Out </a></li>
+                    </ul>
+                </div>
+     <div class="container">
+        <div class="contactinfo">
+            <div>
+                <h2>Contact Info</h2>
+                <ul class="info">
+                    <li>
+                    <span><img src="Image/location.png"></span>
+                    <span>2912 Bije Vokshi Road<br>
+                    Prishtina, Kosova<br>
+                    1000</span>
+                </li>
+                <li>
+                    <span><img src="Image/mail.png"></span>
+                    <span>
+                        erasej10@gmail.com<br>
+                        yllkaukaa@gmail.com 
+                    </span>
+                </li>
+                <li>
+                    <span><img src="Image/call.png"></span>
+                    <span>049208206<br>
+                    045969435</span>
+                    </li>
+                </ul>    
+            </div>
+        </div>
+        
+        <div class="contactForm">
+            <h2>Send a Message</h2>
+            <div class="formBox">
+            <div class="inputBox w50">
+                <input type="text" name="" id="fistname"required>
+                <span>First Name</span>
+            </div>
+            <div class="inputBox w50">
+                <input type="text" name="" id="lastname" required>
+                <span>Last Name</span>
+            </div>
+            <div class="inputBox w50">
+                <input type="text" name="" id="email" required>
+                <span>Email </span>
+            </div>
+            <div class="inputBox w50">
+                <input type="text" name="" id="number" required>
+                <span>Mobile Number</span>
+            </div>
+            <div class="inputBox w100">
+                <textarea name="" id="textarea"required   cols="50" rows="5"></textarea>
+                <span>Write your message here...</span>
+            </div>
+            
+                <a>
+                    <button type="submit"  onclick="send()">Send</button>
+                </a>
+            
+        </div>
+    
+        </div>
+     </div>
+    </section>
+    </body>
+</html>
